@@ -7,9 +7,9 @@ public class HillClimbingSearch implements Runnable{
     private int heuristic = 0;
     private int presentHeuristic;
     private NQueen[] finalSolution;
-    
+
     public  HillClimbingSearch (int size) {
-    	n = size;	
+    	n = size;
     	finalSolution = null;
     }
     
@@ -116,5 +116,4 @@ public class HillClimbingSearch implements Runnable{
         finalSolution = presentBoard;
 	}
 
-   
 }
